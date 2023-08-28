@@ -1,8 +1,8 @@
-package easy;
+package topcoder.easy;
 
 import java.util.Arrays;
 
-class kiwiJuice {
+class KiwiJuice {
 
     public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ class kiwiJuice {
         int[] fromId     = { 2, 3 , 2, 0, 1};
         int[] toId       = { 0, 1, 1, 3, 2 };
 
-        System.out.println(Arrays.toString(kiwiJuice.thePouring(capacities, bottles, fromId, toId)));
+        System.out.println(Arrays.toString(KiwiJuice.thePouring(capacities, bottles, fromId, toId)));
     }
 
     public static int[] thePouring(int[] capacities, int[] bottles, int[] fromId, int[] toId) {
